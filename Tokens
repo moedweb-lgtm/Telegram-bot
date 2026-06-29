@@ -1,0 +1,2 @@
+const TELEGRAM_TOKEN = "token que te dio BotFather";
+const ANTHROPIC_API_KEY =8978274364:AAGtV6I7mPQMqHZzsx5RUcZx8_BgY0HW9vI;
