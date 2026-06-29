@@ -1,0 +1,17 @@
+{
+  "name": "telegram-claude-bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram con Claude AI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@anthropic-ai/sdk": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
