@@ -2,8 +2,8 @@ const TelegramBot = require("node-telegram-bot-api");
 const Anthropic = require("@anthropic-ai/sdk");
 
 // ─── CONFIGURACIÓN ───────────────────────────────────────────────
-const TELEGRAM_TOKEN = "TU_TOKEN_DE_TELEGRAM"; // @BotFather
-const ANTHROPIC_API_KEY = "TU_API_KEY_DE_CLAUDE"; // console.anthropic.com
+const TELEGRAM_TOKEN = "8978274364:AAHdJjaqOHTsrhEh_xSvhHxPKRQ90DdBAiU"; // @BotFather
+const ANTHROPIC_API_KEY = ""; // console.anthropic.com
 const SYSTEM_PROMPT = `Eres un asistente útil, amable y conciso. 
 Respondes en el mismo idioma que te hablan.
 Eres un bot de Telegram, así que mantén respuestas cortas y claras.`;
