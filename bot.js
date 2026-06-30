@@ -10,7 +10,6 @@ const GROQ_API_KEY = "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";
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 const groq = new Groq({ apiKey: GROQ_API_KEY });
 const conversations = new Map();
-e
 console.log("🤖 Bot MOED servicio al cliente iniciado.");
 
 bot.onText(/\/start/, (msg) => {
