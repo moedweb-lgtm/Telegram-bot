@@ -11,7 +11,6 @@ const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 const groq = new Groq({ apiKey: GROQ_API_KEY });
 const conversations = new Map();
 console.log("🤖 Bot MOED servicio al cliente iniciado.");
-
 bot.onText(/\/start/, (msg) => {
   conversations.delete(msg.chat.id);
   const name = msg.from.first_name || "usuario";
