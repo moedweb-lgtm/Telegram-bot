@@ -3,7 +3,7 @@ const Groq = require("groq-sdk");
 const { MOED_CONTEXT } = require("./moed-context");
 
 // ─── CONFIGURACIÓN ───────────────────────────────────────────────
-const TELEGRAM_TOKEN = "8978274364:AAHdJjaqOHTsrhEh_xSvhHxPKRQ90DdBAiU";
+const TELEGRAM_TOKEN = "8978274364:AAHoEGj8HN2fapCzxKN3Nsalo8BXG3Kr8lM";
 const GROQ_API_KEY = "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";
 // ─────────────────────────────────────────────────────────────────
 
