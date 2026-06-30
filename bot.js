@@ -3,8 +3,8 @@ const Groq = require("groq-sdk");
 const { MOED_CONTEXT } = require("./moed-context");
 
 // ─── CONFIGURACIÓN ───────────────────────────────────────────────
-const TELEGRAM_TOKEN = "PON_TU_TOKEN_AQUI";
-const GROQ_API_KEY = "PON_TU_GROQ_KEY_AQUI";
+const TELEGRAM_TOKEN = "8978274364:AAHdJjaqOHTsrhEh_xSvhHxPKRQ90DdBAiU";
+const GROQ_API_KEY = "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";
 // ─────────────────────────────────────────────────────────────────
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
