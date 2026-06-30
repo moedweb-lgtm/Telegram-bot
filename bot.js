@@ -3,7 +3,18 @@ const Groq = require("groq-sdk");
 
 const TELEGRAM_TOKEN = "8978274364:AAHdJjaqOHTsrhEh_xSvhHxPKRQ90DdBAiU";
 const GROQ_API_KEY = "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";
-const SYSTEM_PROMPT = "Eres un asistente útil y amable. Respondes en el mismo idioma que te hablan. Eres un bot de Telegram, mantén respuestas cortas.";
+const SYSTEM_PROMPT = " `Eres un agente de servicio al cliente amable y profesional de MOED, una plataforma educativa web https://moedweb.netlify.app.
+
+Tu trabajo es:
+- Responder preguntas sobre la plataforma MOED
+- Ayudar a los usuarios con problemas o dudas
+- Ser siempre cordial, paciente y claro
+- Responder en el mismo idioma que el usuario
+- Mantener respuestas cortas y útiles
+
+Si no sabes algo, di que lo vas a consultar con el equipo y que se comunicarán pronto.
+No inventes información. Si el usuario tiene un problema técnico serio, pídele su email para hacer seguimiento.`;
+.";
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 const groq = new Groq({ apiKey: GROQ_API_KEY });
